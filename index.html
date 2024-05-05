@@ -16,7 +16,9 @@
             <strong>Lorem ipsum</strong> <em>dolor sit</em> amet <a href="http://google.com" target="_blank">consectetur</a> adipisicing elit. Et, fugit!
         </p>
 
+        <hr>
         <!-- Lists -->
+        <h3>Lists</h3>
         <ul>
             <li>List item 1</li>
             <li>List item 2</li>
@@ -29,8 +31,9 @@
             <li>List item 3</li>
             <li>List item 4</li>
         </ol>
-
+        <hr>
         <!-- Tables -->
+        <h3>Tables</h3>
         <table>
             <thead>
                 <tr>
@@ -53,6 +56,80 @@
             </tbody>
         </table>
         
+        <hr>
+
+        <!-- Forms -->
+        <h3>Forms</h3>
+        <form action="process.php" method="POST">
+            <div>
+                <label>First Name</label>
+                <input type="text" name="firstName">
+            </div>
+            <br>
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="lastName">
+            </div>
+            <br>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email">
+            </div>
+            <br>
+            <div>
+                <label>Message</label>
+                <textarea name="message"></textarea>
+            </div>
+            <br>
+            <div>
+                <label>Select List</label>
+                <select name="selectList">
+                    <option value="one">Option One</option>
+                    <option value="two">Option Two</option>
+                    <option value="three">Option Three</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>Age:</label>
+                <input type="number" name="age" value="30">
+            </div>
+            <br>
+            <div>
+                <label>Birthdate:</label>
+                <input type="date" name="birthdate">
+            </div>
+            <br>
+            <input type="submit" name="submit" value="Submit">
+        </form>
+
+        <hr>
+
+        <!-- Buttons -->
+        <h3>Buttons</h3>
+        <button>Click This Button</button>
+        <button>Or Click This Button Instead</button>
+
+        <hr>
+
+        <!-- Images -->
+        <h3>Images</h3>
+        <h5>Zion National Park (Photo Credit: Wikipedia):</h5>
+        <a href="Multimedia/640px-Zion_angels_landing_view.jpg">
+            <img src="Multimedia/640px-Zion_angels_landing_view.jpg" alt="View from Angels Landing in Zion National Park">
+        </a>
+
+        <hr>
+        <!-- Quotations -->
+        <h3>Quotations</h3>
+        <blockquote cite="http://google.com">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </blockquote>
+        
+        <p>The <abbr title="World Wide Web">WWW</abbr> is awesome</p>
+        
+        <p><cite>HTML cheet sheet</cite> by Dan Minervini</p>
+
         <div style="margin-top:500px"></div>
     </body>
 </html>
